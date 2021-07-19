@@ -1,0 +1,463 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+    font-size: 12px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 12px;
+}
+
+div.top-header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+header div.top-header p {
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    justify-content: center;
+    color: rgba(51,51,51,.6);
+}
+
+header div.top-header p i{
+    margin-right: 10px;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+header div.logo,
+header .form img{
+    max-width: 134px;
+    width: 134px;
+}
+
+header div.logo {
+    padding: 10px;
+}
+
+header .form {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+}
+
+header nav {
+    display: flex;
+    font-size: 12px;
+    margin-left: 20px;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+
+
+
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px 0 20px;
+    font-size: 14px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: rgba(51,51,51,.6)
+}
+
+header .form{
+    position: relative
+    ;
+}
+
+header .form input {
+    padding: 7px 60px 9px 15px;
+    background-color: #FFF;
+    outline: none;
+    color: #666;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    width: 600px;
+    height: 39px;
+}
+
+header .form .submit {
+    background-color: transparent;
+    border: none;
+    color: #666;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 5px;
+}
+
+div.burger-menu {
+    text-align: center;
+}
+
+div.burger-menu i {
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
+div.last-visit,
+div.offers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price {
+    font-size: 18px;
+    width: 30%;
+}
+
+.discount {
+    width: 70%;
+}
+
+.discount,
+.description {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h3,
+.description {
+    color: #666;
+}
+
+.description {
+    display: none;
+    margin-top: 20px;
+}
+
+section.banner img {
+    width: 100%;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main section article {
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+main section article img {
+    width: 100%;
+}
+
+main section article i,
+.discount {
+    color: #39b54a;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+main section h3 {
+    margin: 20px 0px;
+}
+
+article div.main-article {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border-top: 1px solid #ebebeb;
+    position: relative;
+    padding: 15px;
+}
+
+/**FOOTER*/
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+footer section div {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    width: 30%;
+}
+
+/* Cuando paso el cursor por el DIV, debo cambiar el color del ICONO */
+
+footer section div h3 {
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+footer section div p {
+    margin-top: 0px;
+}
+
+.icono-footer {
+    font-size: 2em;
+    padding-bottom: 10px;
+    color: #0022AA;
+    padding-top: 7px;
+    margin-bottom: 10px;
+}
+
+.icono-footer:hover{
+    color: #EAC926;
+}
+
+.Copyright {
+    text-align: center;
+}
+
+footer{
+    background: #fff;
+    margin-top: 40px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.form-login, .form-register{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background: #d8d8d8;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+ .form-register label{
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-register .profile, .form-register .interests{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.form-register .interests{
+    width: 590px;
+    margin-bottom: 20px;
+}
+
+.form-register input[type='checkbox']{
+    width: 22px;
+    height: 22px;
+}
+
+.form-register input[type='radio']{
+    height: 22px;
+}
+
+.form-register .interests div{
+    display: flex;
+}
+
+.form-login input, .form-register input, .form-register button, .form-login button{
+    width: 280px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid #EAC926;
+    padding: 10px;
+}
+
+.form-login input:focus, .form-register input:focus{
+    border: 1px solid #0022AA;
+}
+.form-login input:focus, .form-register input:focus{
+    border: 1px solid #0022AA;
+}
+
+.form-login input.submit{
+    background-color: #0022AA;
+    color: #fff;
+}
+
+.form-register button.submit, .form-login button.submit{
+    background-color: #EAC926;
+    color: #666;
+}
+
+.form-login button.submit:hover, .form-register button.submit:hover{
+    background-color: #0022AA;
+}
+
+.form-register button.submit a, .form-login button.submit a{
+    color: #fff;
+}
+
+
+main section article:hover{
+    background-color: #ebebeb;
+}
+
+main section article:hover .fas.fa-truck{
+    color: #0022AA;
+    transition: all 1s;
+}
+
+/**FOOTER*/
+
+input:invalid,
+textarea:invalid {
+    background:  red;
+}
+
+@media (min-width: 361px) {
+    main section article .description {
+        display: block;
+        transition: all 0.3s;
+
+    }
+
+    main section article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    main section div.products {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    main section div.products article {
+        width: 45%;
+    }
+
+    .price,
+    .discount {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px) {
+    main section div.products article {
+        width: 22%;
+        box-shadow: none;
+        transition: all 0.3s;
+    }
+
+    main section div.products article:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+    }
+
+    main section article .description {
+        visibility: hidden;
+        transition: all 0.3s;
+    }
+
+    main section article:hover .description {
+        visibility: visible;
+        transition: all 0.3s;
+
+    }
+
+   
+    main.login input.submit:hover,
+    main.register input.submit:hover {
+        background-color: #0022AA;
+        color: #fff;
+    }
+
+    main.login input.submit,
+    main.register input.submit {
+        background-color: #0022AA;
+        color: #fff;
+    }
+}
+
+@media (min-width: 1080px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media (min-width: 991px){
+    .burger-menu{
+        display: none;
+    }
+    header {
+        overflow: hidden;
+        top: 0;
+        width: 100%;
+    
+    }
+}
+
+/* Responsive custom */
+
+@media (max-width: 767px) {
+    footer section {
+        display: block;
+    }
+    footer section div{
+        width: 100%;
+        margin: auto;
+    }
+
+    header nav{
+        display: none;
+        
+    }
+
+    header .form input{
+        width: 90%;
+    }
+    header div.top-header p {
+        margin-left: 0;
+    }
+}
